@@ -5,19 +5,8 @@ lsp.preset('recommended')
 lsp.ensure_installed({
 	'pyright',
 	'eslint',
-	'html',
 })
 
--- Fix Undefined global 'vim'
-lsp.configure('lua-ls', {
-    settings = {
-        Lua = {
-            diagnostics = {
-                globals = { 'vim' }
-            }
-        }
-    }
-})
 
 local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}
