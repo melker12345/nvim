@@ -35,6 +35,5 @@ lsp.set_preferences({
     }
 })
 
-
 lsp.setup()
 
