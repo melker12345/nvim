@@ -1,3 +1,7 @@
 require("melker.remap")
+require("melker.set")
+vim.g.netrw_banner = 0
+vim.g.netrw_winsize = 25
+
 
 
